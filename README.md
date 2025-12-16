@@ -18,56 +18,56 @@ flavors:
     app:
       name: "Production"
     android:
-      applicationId: "pro.listo.flutter_starter_kit"
+      applicationId: "fr.benoitfontaine.starter"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit"
+      bundleId: "fr.benoitfontaine.starter"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit"
+      bundleId: "fr.benoitfontaine.starter"
   preprod:
     app:
       name: "Preprod"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.preprod"
+      applicationId: "fr.benoitfontaine.starter.preprod"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.preprod"
+      bundleId: "fr.benoitfontaine.starter.preprod"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.preprod"
+      bundleId: "fr.benoitfontaine.starter.preprod"
   recette:
     app:
       name: "Recette"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.recette"
+      applicationId: "fr.benoitfontaine.starter.recette"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.recette"
+      bundleId: "fr.benoitfontaine.starter.recette"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.recette"
+      bundleId: "fr.benoitfontaine.starter.recette"
   integration:
     app:
       name: "Integration"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.integration"
+      applicationId: "fr.benoitfontaine.starter.integration"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.integration"
+      bundleId: "fr.benoitfontaine.starter.integration"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.integration"
+      bundleId: "fr.benoitfontaine.starter.integration"
   dev:
     app:
       name: "Dev"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.dev"
+      applicationId: "fr.benoitfontaine.starter.dev"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.dev"
+      bundleId: "fr.benoitfontaine.starter.dev"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.dev"
+      bundleId: "fr.benoitfontaine.starter.dev"
   test:
     app:
       name: "Test"
     android:
-      applicationId: "pro.listo.flutter_starter_kit.test"
+      applicationId: "fr.benoitfontaine.starter.test"
     ios:
-      bundleId: "pro.listo.flutter_starter_kit.test"
+      bundleId: "fr.benoitfontaine.starter.test"
     macos:
-      bundleId: "pro.listo.flutter_starter_kit.test"
+      bundleId: "fr.benoitfontaine.starter.test"
 
 ide: idea
 ```

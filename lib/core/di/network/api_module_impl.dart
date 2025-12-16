@@ -2,8 +2,8 @@ import 'package:dio/dio.dart';
 import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 import 'package:injectable/injectable.dart';
 
-import '../di_module.dart';
 import '/injection.dart';
+import '../di_module.dart';
 
 @dev
 @integration
@@ -19,12 +19,9 @@ class ApiModuleImpl implements ApiModule {
     var cache = CacheOptions(
       store: MemCacheStore(),
       policy: CachePolicy.request,
-      hitCacheOnErrorExcept: [401, 403],
+      hitCacheOnErrorCodes: CacheStrategyFactory.allowedStatusCodes,
     );
-    _dio = Dio()
-      ..interceptors.addAll([
-        DioCacheInterceptor(options: cache),
-      ]);
+    _dio = Dio()..interceptors.addAll([DioCacheInterceptor(options: cache)]);
     _client = ApiClient(_dio, baseUrl: configuration.apiBaseUrl);
   }
 
